@@ -2,7 +2,7 @@ const supertest = require('supertest')
 const app = require('../app');
 const {connectInstance} = require('./database')
 
-describe("Testing User Route", () => {
+describe("Testing Blog Route", () => {
     let database;
     let token1;
     let token2;
