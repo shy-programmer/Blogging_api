@@ -114,7 +114,7 @@ const editBlog = async (author, blogId, blogData) => {
     return {
         code: 200,
         message: 'Blog updated successfully',
-        data: blog,
+        data: blog
     };
 }
 
