@@ -12,7 +12,7 @@ app.use('/api/v1/blogs', blogRoute);
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('Welcome to my Altschool exam submission API!');
+  res.send('Welcome to my blogging API!');
 });
 
 // Wrong endpoints
